@@ -1,5 +1,73 @@
+.click_me:link
+{
+background-color: blue;
+color: yellow;
+padding: 25px;
+}
+
+
+
+/* group selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* div içindeki tüm p */
+div > p{
+ color:yellow;   
+}
+
+/* div aynı seviye */
+div ~ p {
+    color:blue;
+    font-size: 25px;
+}
+
+/* div aynı seviyede ilk p */
+div + p {
+    color:green;
+    font-size: 25px;
+}
+
+ul{
+    list-style-type: none;
+   text-decoration: none;
+}
+
+ul li{
+    background: red;
+    margin-top:5px;
+    text-align: center;
+    padding:8px 0;
+}
+
+ul li:last-child{
+    background: blue;
+}
+
+.clearfix:after{
+content: "";
+clear: both;
+display: block;
+}
 
 .text4{
+margin-bottom:55px;
+text-align: justify;
+text-decoration: none;
+text-transform: lowercase;
+text-indent: 25px;
+text-shadow: .5px .4px;
+letter-spacing: .1px;
+line-height: 13px;
+word-spacing: 2px;
+column-count: 3;
+column-rule: 2px solid red;
+
+/* h-w */
+display: inline-block;
 
 }
 
@@ -19,7 +87,7 @@
 /* renkler: 0 (siyah)
 renkler f (beyaz) */
 
-div {
+ div {
     width: 250px;
     height: 200px;
     color: rgba(255,255,255,0.9);
@@ -27,8 +95,8 @@ div {
     padding: 15px 25px 35px 42px;
     margin-top: 12px;
     border-top:6px solid blue;
-    border-radius: 50%;
-}
+    /* border-radius: 50%; */
+} 
 
 /* important > inlinecss > internalcss >externalcss */
 
