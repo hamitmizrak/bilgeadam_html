@@ -1,0 +1,41 @@
+
+.text4{
+
+}
+
+
+/* class */
+.bilgeadam_class{
+    color:blueviolet;
+    font-size: 2rem;
+}
+
+/* id */
+#bilgeadam_id{
+    color:greenyellow;
+    /* !important: zorunlu görex */
+    font-size: 2rem!important;
+}
+/* renkler: 0 (siyah)
+renkler f (beyaz) */
+
+div {
+    width: 250px;
+    height: 200px;
+    color: rgba(255,255,255,0.9);
+    background-color: rgba(0,0,0,.8);
+    padding: 15px 25px 35px 42px;
+    margin-top: 12px;
+    border-top:6px solid blue;
+    border-radius: 50%;
+}
+
+/* important > inlinecss > internalcss >externalcss */
+
+#unique{
+   font-size:25px;
+   font-weight: 600;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+}
+
