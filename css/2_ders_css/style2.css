@@ -33,11 +33,19 @@ div{
 
 /* F-A-R-S-S
 F=fixed
-A
-R
+A=absolute 0,0
+R=relative kendini ebevyn göre ayarlıyor.
 S=stick
 S=static(default)
 */
+
+#paragraf{
+    border:1px solid blueviolet;
+    position: sticky;
+    left: 45px;
+    top:3px;
+    background: white;
+}
 
 #back_to_top{
 width: 60px;
